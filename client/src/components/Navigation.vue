@@ -67,6 +67,7 @@ export default {
   list-style: none;
   display: inline-block;
   width: 1200px;
+  padding-left: 0px;
 }
 
 li {
