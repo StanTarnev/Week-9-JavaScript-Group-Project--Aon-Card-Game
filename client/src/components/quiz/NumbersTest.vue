@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="number-test">
-    <individual-number v-for="question in questions" :questionsData="question"/>
+    <individual-number v-for="(question, index) in questions" :questionsData="question" :key="index"/>
   </div>
 </template>
 

@@ -15,7 +15,7 @@
           <p>8 – ochd</p>
           <p>9 – naoi</p>
           <p>10 – deich</p> -->
-          <NumbersHelp v-for="banana in numbers" :item="banana"/>
+          <NumbersHelp v-for="(banana, index) in numbers" :item="banana" :key="index"/>
         </div>
       </transition>
     </div>
