@@ -28,4 +28,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
+.number-test {
+  width: max-content;
+}
 </style>
