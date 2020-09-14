@@ -1,6 +1,5 @@
 <template lang="html">
   <div v-on:click="handleClick" :class="{'slide-top': animate}" class="player-cards">
-    <!-- Player Card {{card}} -->
     <img class="player-card" :src="card.front_url">
   </div>
 </template>
@@ -85,7 +84,6 @@ img {
   box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.6);
   margin: 5px;
   transition: all .3s ease-in-out;
-  /* transform-origin: center; */
 }
 
 .player-card:hover {

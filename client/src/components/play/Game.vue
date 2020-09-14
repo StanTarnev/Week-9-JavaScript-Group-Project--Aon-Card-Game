@@ -5,16 +5,6 @@
       <transition name="cheat">
         <div v-if="help" class="help-list">
           <p>If you need a little help:</p>
-          <!-- <p>1 – aon</p>
-          <p>2 – dhà</p>
-          <p>3 – trì</p>
-          <p>4 – ceithir</p>
-          <p>5 – còig</p>
-          <p>6 – sia</p>
-          <p>7 – seachd</p>
-          <p>8 – ochd</p>
-          <p>9 – naoi</p>
-          <p>10 – deich</p> -->
           <NumbersHelp v-for="(banana, index) in numbers" :item="banana" :key="index"/>
         </div>
       </transition>
@@ -462,10 +452,6 @@ export default {
     box-shadow: 1px 1px 0.5px black;
     transform: translateY(4px);
   }
-/*
-  .help-button:hover {
-    transform: scale(1.5);
-  } */
 
   .help-list {
     background-color: ghostwhite;
@@ -520,10 +506,6 @@ export default {
   box-shadow: 1px 1px 0.5px black;
   transform: translateY(4px);
 }
-
-/* .info-button:hover {
-transform: scale(1.5);
-} */
 
 .info-list {
   background-color: ghostwhite;

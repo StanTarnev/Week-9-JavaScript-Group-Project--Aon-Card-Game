@@ -59,9 +59,6 @@ export default {
 }
 
 button {
-  /* position: absolute;
-  right: 86px;
-  top: -50px; */
   transition: 0.1s ease-in-out;
   font-size: 13px;
   border-radius: 20px;
