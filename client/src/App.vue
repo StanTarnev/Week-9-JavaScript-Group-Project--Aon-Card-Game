@@ -15,10 +15,13 @@ export default {
 </script>
 
 <style>
+body {
+  margin: 0;
+}
+
 #app {
   font-family: 'Cormorant Garamond', serif;
   text-align: center;
   color: #2c3e50;
-  margin-top: 30px;
 }
 </style>
