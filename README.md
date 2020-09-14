@@ -19,4 +19,4 @@
 
 1. `cd client` to go to the client directory.
 2. `sudo npm install` to install all of the required npm packages.  
-3. `sudo npm dev` to run the client server.
+3. `sudo npm run dev` to run the client server.
