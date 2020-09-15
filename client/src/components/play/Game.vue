@@ -14,9 +14,9 @@
       <transition name="tips">
         <div v-if="info" class="info-list">
           <p>Useful tips for the game:</p>
-          <p>You can put down a card if its number / colour matches with the card's number / colour on the top of the Discard Pile.</p>
+          <p>You can put down a card if its number/color matches the number/color of the card at the top of the Discard Pile.</p>
           <p>If you can't put down anything, draw a card from the Draw Pile.</p>
-          <p>If you have only one card left don't forget to push the "AON" button or you will suffer!</p>
+          <p>If you have only one card left, don't forget to push the "AON" button or you will suffer!</p>
         </div>
       </transition>
     </div>

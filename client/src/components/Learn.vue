@@ -18,7 +18,7 @@
     </section>
     <section class="section5">
       <h1>How to win:</h1>
-      When a player has one card left, he or she must yell "Aon!" If the player forgets, he or she has to pick four cards from the draw pile. Once a player has no cards left, the hand is over and she or he wins the game.
+      When a player has one card left, he or she must yell "Aon!". If the player forgets, he or she has to pick four cards from the draw pile. Once a player has no cards left, the hand is over and she or he wins the game.
     </section>
 
     <img class="piles-img" src="../../public/piles.png" alt="">
