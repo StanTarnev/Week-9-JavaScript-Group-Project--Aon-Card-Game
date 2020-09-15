@@ -4,7 +4,6 @@
       <li>
         <router-link to="/"><img title="Home page" id="logo" src="../assets/aon.png" alt="logo"></router-link>
       </li>
-      <br>
       <li class="nav-item red">
         <router-link to="/info">About</router-link>
       </li>
@@ -86,7 +85,7 @@ li {
 
 #logo {
   position: relative;
-  width: 90px;
+  width: 40px;
   height: auto;
   transition: transform 1.5s ease-in-out;
 }
