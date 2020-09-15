@@ -61,7 +61,7 @@ export default {
   display: inline-block;
   width: 1200px;
   padding-left: 0px;
-  margin: 4px 0px;
+  margin: 10px 0px;
 }
 
 li {
