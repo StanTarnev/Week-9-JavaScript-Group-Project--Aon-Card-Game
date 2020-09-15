@@ -7,7 +7,7 @@
           <li @click="openModal" v-if="!showModal">Aurimas Drungilas</li>
         </div>
         <div class="stan">
-          <li @click="openModal" v-if="!showModal">Stanislaus Tarnev</li>
+          <li @click="openModal" v-if="!showModal">Stan Tarnev</li>
       </div>
       <div class="adam">
         <li @click="openModal" v-if="!showModal">Adam D. Hidvegi</li>
