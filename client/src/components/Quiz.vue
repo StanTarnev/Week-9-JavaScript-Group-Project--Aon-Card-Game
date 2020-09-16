@@ -28,14 +28,14 @@ export default {
 
 <style lang="css" scoped>
 .quiz-header {
-  position: relative;
-  top: 130px;
-  left: -14.5%;
+  position: absolute;
+  top: 25%;
+  left: 20%%;
 }
 
 .test {
   position: absolute;
-  bottom: 6%;
+  bottom: 20%;
   left: 63%;
   width: 200px;
 }
