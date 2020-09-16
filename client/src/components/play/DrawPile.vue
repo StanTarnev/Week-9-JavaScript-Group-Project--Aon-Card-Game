@@ -1,5 +1,5 @@
 <template lang="html">
-  <div v-on:click="handleClick" class="draw-pile">>
+  <div v-on:click="handleClick" class="draw-pile">
     <p>Draw pile</p>
     <img :src="lastCard.back_url" class="draw-card">
     <img :src="lastCard.back_url" :class="{'slide-top': animateTop, 'slide-bottom': animateBottom}" class="animated-card draw-card">

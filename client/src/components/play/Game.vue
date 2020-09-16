@@ -407,6 +407,7 @@ export default {
     position: relative;
     left: 18%;
     width: 780px;
+    transform: scale(.95);
   }
 
   .table {
@@ -417,9 +418,6 @@ export default {
     background-color: ivory;
     width: 100%;
     height: auto;
-    padding-bottom: 80px;
-    padding-top: 40px;
-    margin-top: 40px;
     box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.7);
   }
 
@@ -427,8 +425,8 @@ export default {
 
   .help-side {
     position: absolute;
-    right: 90px;
-    top: 320px;
+    right: 130px;
+    top: 250px;
     text-align: center;
   }
 
@@ -481,7 +479,7 @@ export default {
 .info-side {
   position: absolute;
   left: 140px;
-  top: 325px;
+  top: 250px;
   text-align: center;
   width: 190px;
 }
