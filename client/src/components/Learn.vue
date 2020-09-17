@@ -81,7 +81,7 @@ export default {
   position: absolute;
   width: 120px;
   height: auto;
-  top: 40%;
+  top: 20%;
   left: 32%;
   perspective: 1000px;
 }
@@ -113,7 +113,7 @@ export default {
   position: absolute;
   width: 120px;
   height: auto;
-  top: 66%;
+  top: 46%;
   left: 22%;
   perspective: 1000px;
 }
@@ -145,7 +145,7 @@ export default {
   position: absolute;
   width: 120px;
   height: auto;
-  top: 40%;
+  top: 20%;
   left: 22%;
   perspective: 1000px;
 }
@@ -177,7 +177,7 @@ export default {
   position: absolute;
   width: 120px;
   height: auto;
-  top: 66%;
+  top: 46%;
   left: 32%;
   perspective: 1000px;
 }
@@ -217,7 +217,7 @@ img {
   width: 400px;
   text-align: justify;
   left: 49%;
-  top: 30%;
+  top: 13%;
   margin-top: 5px;
 }
 
@@ -228,7 +228,7 @@ img {
   width: 400px;
   text-align: justify;
   left: 49%;
-  top: 55%;
+  top: 35%;
   margin-top: 20px;
 }
 
@@ -239,7 +239,7 @@ img {
   width: 400px;
   text-align: justify;
   left: 20%;
-  top: 95%;
+  top: 70%;
   padding-top: 30px;
 }
 
@@ -250,7 +250,7 @@ img {
   width: 400px;
   text-align: justify;
   left: 20%;
-  top: 128%;
+  top: 98%;
 }
 
 .section5 {
@@ -260,7 +260,7 @@ img {
   width: 830px;
   text-align: justify;
   left: 20%;
-  top: 167%;
+  top: 132%;
 }
 
 .learn-to-play {
@@ -269,7 +269,7 @@ img {
 
 .piles-img {
   position: absolute;
-  top: 114%;
+  top: 86%;
   left: 55.5%;
   width: 330px;
   height: auto;
