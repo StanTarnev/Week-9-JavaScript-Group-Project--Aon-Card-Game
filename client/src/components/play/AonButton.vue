@@ -16,6 +16,7 @@ export default {
 
 <style lang="css" scoped>
 .aon-button {
+  font-family: inherit;
   position: relative;
   right: -7%;
   font-weight: bolder;

@@ -431,6 +431,7 @@ export default {
   }
 
   .help-button {
+    font-family: inherit;
     position: absolute;
     right: 86px;
     top: -50px;
@@ -485,6 +486,7 @@ export default {
 }
 
 .info-button {
+  font-family: inherit;
   position: absolute;
   left: 80px;
   top: -51px;
