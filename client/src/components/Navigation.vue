@@ -1,8 +1,8 @@
 <template lang="html">
   <div>
     <ul class="nav-bar">
-      <li>
-        <router-link to="/"><img title="Home page" id="logo" src="../assets/aon.png" alt="logo"></router-link>
+      <li class="nav-item">
+        <router-link to="/">AON!</router-link>
       </li>
       <li class="nav-item red">
         <router-link to="/info">About</router-link>
@@ -40,8 +40,8 @@ export default {
   font-weight: bolder;
   margin-left: 10px;
   margin-right: 10px;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
   padding-top: 2px;
   padding-bottom: 2px;
   transform-style: preserve-3d;
@@ -81,18 +81,6 @@ li {
 .nav-item > a:visited {
   color: #264726;
   text-decoration: none;
-}
-
-
-#logo {
-  position: relative;
-  width: 40px;
-  height: auto;
-  transition: transform 1.5s ease-in-out;
-}
-
-#logo:hover {
-  transform: rotateZ(360deg);
 }
 
 .fade-enter-active, .fade-leave-active {
