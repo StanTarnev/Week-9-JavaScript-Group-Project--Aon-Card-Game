@@ -1,7 +1,9 @@
 <template lang="html">
   <div class="numbers">
-    <span class="icon" v-if="showAuxiliary && isCorrect">✅</span>
+    <!-- <span class="icon" v-if="showAuxiliary && isCorrect">✅</span>
     <span class="icon" v-if="showAuxiliary && !isCorrect">❌</span>
+    <span class="icon" v-if="!showAuxiliary"> </span> -->
+    <span class="icon">{{this.correctSymbol}}</span>
     <span>{{this.questionsData.question}}</span>
     <input class="input" type="text" size="10" v-model:change="input" v-on:keyup.enter="handleCheckClick">
     <button type="button" v-on:click="handleCheckClick">Check</button>
@@ -16,7 +18,8 @@ export default {
   data() {
     return {
       input: '',
-      showAuxiliary: false,
+      correctSymbol: 'ааa',
+      // showAuxiliary: false,
       isCorrect: false
     }
   },
@@ -32,13 +35,15 @@ export default {
     },
     handleCheckClick() {
       if (this.questionsData.answers.includes(this.input.toLowerCase())) {
+        this.correctSymbol = '✅';
         this.isCorrect = true;
         this.correctInputSound();
       } else {
+        this.correctSymbol =  '❌'
         this.isCorrect = false;
         this.wrongInputSound();
       }
-      this.showAuxiliary = true;
+      // this.showAuxiliary = true;
     }
   }
 }
@@ -56,7 +61,8 @@ export default {
 
 .icon {
   position: relative;
-  font-size: 10px
+  font-size: 10px;
+  color: whitesmoke;
 }
 
 button {
