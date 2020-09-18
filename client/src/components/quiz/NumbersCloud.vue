@@ -39,7 +39,7 @@ export default {
   background-color: ghostwhite;
   border-radius: 40px;
   max-width: 400px;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 
 </style>

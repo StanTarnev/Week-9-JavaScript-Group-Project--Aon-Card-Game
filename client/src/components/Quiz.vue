@@ -35,8 +35,8 @@ export default {
 
 .test {
   position: absolute;
-  bottom: 20%;
-  left: 63%;
-  width: 200px;
+  bottom: 23%;
+  left: 64%;
+  width: 250px;
 }
 </style>
