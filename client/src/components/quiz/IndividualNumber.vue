@@ -46,6 +46,7 @@ export default {
 
 <style lang="css" scoped>
 .input {
+  font-family: inherit;
   font-size: 15px;
 }
 
