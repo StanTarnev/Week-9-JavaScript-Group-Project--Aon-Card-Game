@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="table">
     <div class="help-side">
-      <button title="Would you like to cheat?" class="help-button" @click="help = !help">?</button><br>
+      <button title="Would you like a cheat sheet?" class="help-button" @click="help = !help">?</button><br>
       <transition name="cheat">
         <div v-if="help" class="help-list">
           <p>If you need a little help:</p>

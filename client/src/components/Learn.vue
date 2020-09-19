@@ -6,7 +6,7 @@
     </section>
     <section class="section2">
       <h1>Object of the game:</h1>
-      The object of AON is playing all the cards in your hand. When only one card is remaining, the cardholder must shout "Aon!" alerting others that he or she is down to the last card in his or her hand.
+      The object of AON is playing all the cards in your hand. When only one card is left, the cardholder must shout "Aon!" alerting others that he or she is down to the last card in his or her hand.
     </section>
     <section class="section3">
       <h1>How to start:</h1>
@@ -14,7 +14,7 @@
     </section>
     <section class="section4">
       <h1>How to play:</h1>
-      The first player has to match the card in the discard pile either by number, color or word. For example, if the card played is a red 7, the next player must throw down a red card or a 7 of any color. If the player doesn't have a playable card, he or she must pick a card from the draw pile.
+      The first player has to match the card in the discard pile either by number or color. For example, if the card played is a red 7, the next player must throw down a red card or a 7 of any color. If the player doesn't have a playable card, he or she must pick a card from the draw pile.
     </section>
     <section class="section5">
       <h1>How to win:</h1>
