@@ -1,11 +1,11 @@
 <template lang="html">
   <div>
     <div class="quiz-header">
-      <h2>Click and hover over words to hear them</h2>
+      <h3>Click and hover over words to hear them</h3>
       <numbers-cloud/>
     </div>
     <div class="test">
-      <h2>Test Your Gaelic numbers!</h2>
+      <h3>Test Your Gaelic numbers</h3>
       <numbers-test/>
     </div>
   </div>
@@ -38,5 +38,9 @@ export default {
   bottom: 23%;
   left: 64%;
   width: 250px;
+}
+
+h3 {
+  text-transform: uppercase;
 }
 </style>
