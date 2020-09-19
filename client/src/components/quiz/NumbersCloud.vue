@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="cloud">
-    <CloudNumber v-for="(banana, index) in numbers" :item="banana" :key="index"/>
+    <CloudNumber v-for="(number, index) in numbers" :item="number" :key="index"/>
   </div>
 </template>
 

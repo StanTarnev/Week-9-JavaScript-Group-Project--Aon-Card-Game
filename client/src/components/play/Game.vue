@@ -5,7 +5,7 @@
       <transition name="cheat">
         <div v-if="help" class="help-list">
           <p>If you need a little help:</p>
-          <NumbersHelp v-for="(banana, index) in numbers" :item="banana" :key="index"/>
+          <NumbersHelp v-for="(number, index) in numbers" :item="number" :key="index"/>
         </div>
       </transition>
     </div>
