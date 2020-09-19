@@ -30,13 +30,13 @@ export default {
 .quiz-header {
   position: absolute;
   top: 25%;
-  left: 20%;
+  left: 22%;
 }
 
 .test {
   position: absolute;
-  bottom: 23%;
-  left: 64%;
+  bottom: 25%;
+  left: 62%;
   width: 250px;
 }
 
