@@ -42,5 +42,7 @@ export default {
 
 h3 {
   text-transform: uppercase;
+  max-width: 360px;
+  margin-left: 22px;
 }
 </style>
