@@ -31,7 +31,7 @@ export default {
     },
     handleCheckClick() {
       if (this.questionsData.answers.includes(this.input.toLowerCase())) {
-        this.correctSymbol = '✅';
+        this.correctSymbol = '✔️';
         this.isCorrect = true;
         this.correctInputSound();
       } else {
