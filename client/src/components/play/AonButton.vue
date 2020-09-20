@@ -16,13 +16,14 @@ export default {
 
 <style lang="css" scoped>
 .aon-button {
+  font-family: inherit;
   position: relative;
   right: -7%;
   font-weight: bolder;
   top: -95px;
   transition: 0.1s ease-in-out;
   padding: 10px;
-  font-size: 15px;
+  font-size: 25px;
   border-radius: 12px;
   background-color: lightgrey;
   box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.7);

@@ -1,21 +1,11 @@
 <template lang="html">
   <div class="table">
     <div class="help-side">
-      <button title="Would you like to cheat?" class="help-button" @click="help = !help">?</button><br>
+      <button title="Would you like a cheat sheet?" class="help-button" @click="help = !help">?</button><br>
       <transition name="cheat">
         <div v-if="help" class="help-list">
           <p>If you need a little help:</p>
-          <!-- <p>1 – aon</p>
-          <p>2 – dhà</p>
-          <p>3 – trì</p>
-          <p>4 – ceithir</p>
-          <p>5 – còig</p>
-          <p>6 – sia</p>
-          <p>7 – seachd</p>
-          <p>8 – ochd</p>
-          <p>9 – naoi</p>
-          <p>10 – deich</p> -->
-          <NumbersHelp v-for="banana in numbers" :item="banana"/>
+          <NumbersHelp v-for="(number, index) in numbers" :item="number" :key="index"/>
         </div>
       </transition>
     </div>
@@ -24,9 +14,9 @@
       <transition name="tips">
         <div v-if="info" class="info-list">
           <p>Useful tips for the game:</p>
-          <p>You can put down a card if its number / colour matches with the card's number / colour on the top of the Discard Pile.</p>
+          <p>You can put down a card if its number/color matches the number/color of the card at the top of the Discard Pile.</p>
           <p>If you can't put down anything, draw a card from the Draw Pile.</p>
-          <p>If you have only one card left don't forget to push the "AON" button or you will suffer!</p>
+          <p>If you have only one card left, don't forget to push the "AON" button or you will suffer!</p>
         </div>
       </transition>
     </div>
@@ -434,6 +424,7 @@ export default {
     position: relative;
     left: 18%;
     width: 780px;
+    transform: scale(.95);
   }
 
   .table {
@@ -444,9 +435,6 @@ export default {
     background-color: ivory;
     width: 100%;
     height: auto;
-    padding-bottom: 80px;
-    padding-top: 40px;
-    margin-top: 40px;
     box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.7);
   }
 
@@ -454,12 +442,13 @@ export default {
 
   .help-side {
     position: absolute;
-    right: 90px;
-    top: 320px;
+    right: 130px;
+    top: 250px;
     text-align: center;
   }
 
   .help-button {
+    font-family: inherit;
     position: absolute;
     right: 86px;
     top: -50px;
@@ -479,10 +468,6 @@ export default {
     box-shadow: 1px 1px 0.5px black;
     transform: translateY(4px);
   }
-/*
-  .help-button:hover {
-    transform: scale(1.5);
-  } */
 
   .help-list {
     background-color: ghostwhite;
@@ -512,12 +497,13 @@ export default {
 .info-side {
   position: absolute;
   left: 140px;
-  top: 325px;
+  top: 250px;
   text-align: center;
   width: 190px;
 }
 
 .info-button {
+  font-family: inherit;
   position: absolute;
   left: 80px;
   top: -51px;
@@ -537,10 +523,6 @@ export default {
   box-shadow: 1px 1px 0.5px black;
   transform: translateY(4px);
 }
-
-/* .info-button:hover {
-transform: scale(1.5);
-} */
 
 .info-list {
   background-color: ghostwhite;

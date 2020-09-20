@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    <p>Your opponent's cards</p>
+    <p>Opponent's Cards</p>
     <AICards v-bind:cards="cards"></AICards>
   </div>
 </template>

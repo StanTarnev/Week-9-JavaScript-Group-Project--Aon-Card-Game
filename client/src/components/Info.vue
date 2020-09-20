@@ -1,25 +1,25 @@
 <template lang="html">
   <div class="info">
     <section class="header">
-      <h1>Please, let me introduce you our developing team:</h1>
+      <h1>Please let me introduce our developing team:</h1>
       <ul class="header-list">
         <div class="auri">
           <li @click="openModal" v-if="!showModal">Aurimas Drungilas</li>
         </div>
         <div class="stan">
-          <li @click="openModal" v-if="!showModal">Stanislaus Tarnev</li>
+          <li @click="openModal" v-if="!showModal">Adam D. Hidvegi</li>
       </div>
       <div class="adam">
-        <li @click="openModal" v-if="!showModal">Adam D. Hidvegi</li>
+        <li @click="openModal" v-if="!showModal">Stan Tarnev</li>
       </div>
     </ul>
   </section>
   <section class="text">
     <h1>About the project:</h1>
-    <p>Our main goal was to create a simple application, what you can use to learn a few things about a new language while having fun. It includes a quick quiz at the very beginning to make you prepared to play with our game. Right after the quiz you can have information about the rules of the game. Don't worry, they are really simple!</p>
-    <p>We highly recommend you to go through the navigation bar in order from left to right to have all the information you need to play an extremely enjoyable game.</p>
-    <p>Of course, you can skip a few steps at any time, on the Game page you will find reminders about the rules and a little help for the language on both sides, if you don't exactly know what to do.</p>
-    <p style="font-size: 27px; font-weight: bolder;">Thank you very much for using our application and please, enjoy your time!</p>
+    <p>Our main goal was to create a simple application which you can use to learn a few things about a new language while having fun. It includes a quick quiz at the very beginning to prepare you for playing our game. Right after the quiz, you can get information about the rules of the game. Don't worry, they are really simple!</p>
+    <p>We highly recommend that you go through the navigation bar from left to right to get all the information you need to play an extremely enjoyable game.</p>
+    <p>Of course, you can skip a few steps at any time, and on the Game page you will find reminders about the rules and a little help with the language if you don't exactly know what to do.</p>
+    <p style="font-size: 27px; font-weight: bolder;">Thank you very much for using our application and please have a good time!</p>
   </section>
 
   <transition name="test">

@@ -1,14 +1,13 @@
 <template lang="html">
-<div>
-  <div class="quiz-header">
-    <h2>Click and hover over words to hear them</h2>
-    <numbers-cloud/>
-  </div>
+  <div>
+    <div class="quiz-header">
+      <h3>Click and hover over words to hear them</h3>
+      <numbers-cloud/>
+    </div>
     <div class="test">
-    <h2>Test Your Gaelic numbers!</h2>
-    <numbers-test/>
-  </div>
-    <!-- <QuestionsA></QuestionsA> -->
+      <h3>Test Your Gaelic numbers</h3>
+      <numbers-test/>
+    </div>
   </div>
 </template>
 
@@ -17,29 +16,33 @@ import {eventBus} from '@/main.js'
 
 import NumbersCloud from '@/components/quiz/NumbersCloud.vue'
 import NumbersTest from '@/components/quiz/NumbersTest.vue'
-// import QuestionsA from '@/components/quiz/QuestionsA.vue'
 
 export default {
   name: 'quiz',
   components: {
     'numbers-cloud': NumbersCloud,
     'numbers-test': NumbersTest,
-    // QuestionsA,
   }
 }
 </script>
 
 <style lang="css" scoped>
 .quiz-header {
-  position: relative;
-  top: 130px;
-  left: -14.5%;
+  position: absolute;
+  top: 25%;
+  left: 22%;
 }
 
 .test {
   position: absolute;
-  bottom: 6%;
-  left: 63%;
-  width: 200px;
+  bottom: 25%;
+  left: 62%;
+  width: 250px;
+}
+
+h3 {
+  text-transform: uppercase;
+  max-width: 360px;
+  margin-left: 22px;
 }
 </style>

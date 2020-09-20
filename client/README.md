@@ -1,4 +1,4 @@
-# client_adam
+# client
 
 > A Vue.js project
 

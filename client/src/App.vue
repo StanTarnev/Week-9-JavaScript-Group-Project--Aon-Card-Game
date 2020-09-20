@@ -15,10 +15,18 @@ export default {
 </script>
 
 <style>
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Roman Uncial Modern';
+  src: local('Roman Uncial Modern'), url(./fonts/Romanuncialmodern-jra0.ttf) format('truetype');
+}
+
 #app {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Roman Uncial Modern', serif;
   text-align: center;
   color: #2c3e50;
-  margin-top: 30px;
 }
 </style>

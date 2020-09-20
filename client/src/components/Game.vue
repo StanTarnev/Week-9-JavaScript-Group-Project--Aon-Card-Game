@@ -1,15 +1,5 @@
 <template lang="html">
   <div>
-    <!-- <ComputerCards>
-      <BlankCard></BlankCard>
-    </ComputerCards>
-    <GameCards>
-      <DrawCards></DrawCards>
-      <PileCards></PileCards>
-    </GameCards>
-    <PlayerCards>
-      <Card></Card>
-    </PlayerCards> -->
     <UnoButton></UnoButton>
     <p v-for="play in plays">{{play.name}}</p>
     <button type="button" v-on:click="handleClick">Play</button>
